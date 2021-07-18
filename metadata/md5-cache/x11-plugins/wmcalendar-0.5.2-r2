@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile
+DEPEND=dev-libs/libical x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXext x11-libs/libXpm
+DESCRIPTION=a calendar dockapp
+EAPI=7
+HOMEPAGE=http://wmcalendar.sourceforge.net
+KEYWORDS=~amd64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libical x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXext x11-libs/libXpm
+SLOT=0
+SRC_URI=mirror://sourceforge/wmcalendar/wmcalendar-0.5.2.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=5073ed0f84fab6b9893cb050e66c199d

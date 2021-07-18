@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile install postinst
+DEPEND=dev-libs/glib:2 sys-fs/fuse:0
+DESCRIPTION=Fuse multi harddrive filesystem
+EAPI=7
+HOMEPAGE=http://mhddfs.uvw.ru/ http://svn.uvw.ru/mhddfs/trunk/README
+IUSE=l10n_ru suid
+KEYWORDS=amd64
+LICENSE=GPL-3
+RDEPEND=dev-libs/glib:2 sys-fs/fuse:0
+SLOT=0
+SRC_URI=http://mhddfs.uvw.ru/downloads/mhddfs_0.1.39.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=e0dc34b031cc758e19a191815725be3f

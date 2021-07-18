@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=x11-libs/libX11 virtual/jpeg:0
+DESCRIPTION=Tools for MPEG video
+EAPI=7
+HOMEPAGE=http://bmrc.berkeley.edu/research/mpeg/mpeg_encode.html
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
+LICENSE=BSD
+RDEPEND=x11-libs/libX11 virtual/jpeg:0
+SLOT=0
+SRC_URI=ftp://mm-ftp.cs.berkeley.edu/pub/multimedia/mpeg/encode/mpeg_encode-1.5b-src.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=6ffb5543fe3de6bad5ed6d294012eea3

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 virtual/yacc
+DESCRIPTION=A graphical file and directories comparator and merge tool
+EAPI=7
+HOMEPAGE=http://furius.ca/xxdiff/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~slyfox/distfiles/xxdiff-4.0.1_p20170622.tar.bz2
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=557f3fc9c7bdc2cec87c6f2930ba5331

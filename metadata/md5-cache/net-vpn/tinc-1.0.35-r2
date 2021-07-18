@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=configure install
+DEPEND=dev-libs/openssl:0= lzo? ( dev-libs/lzo:2 ) zlib? ( sys-libs/zlib )
+DESCRIPTION=tinc is an easy to configure VPN implementation
+EAPI=7
+HOMEPAGE=http://www.tinc-vpn.org/
+IUSE=+lzo uml vde +zlib
+KEYWORDS=~amd64 ~arm ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=GPL-2
+RDEPEND=dev-libs/openssl:0= lzo? ( dev-libs/lzo:2 ) zlib? ( sys-libs/zlib ) vde? ( net-misc/vde )
+SLOT=0
+SRC_URI=http://www.tinc-vpn.org/packages/tinc-1.0.35.tar.gz https://dev.gentoo.org/~dlan/distfiles/tinc-1.0.35-upstream-patches-1.tar.xz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=729cbbc13ebbdb74f3419734ed4a1c61

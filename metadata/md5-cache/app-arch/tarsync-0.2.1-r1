@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install
+DEPEND=>=dev-util/diffball-0.7
+DESCRIPTION=Delta compression suite for using/generating binary patches
+EAPI=7
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+KEYWORDS=amd64 ~hppa ppc x86 ~amd64-linux
+LICENSE=GPL-2
+RDEPEND=>=dev-util/diffball-0.7
+SLOT=0
+SRC_URI=mirror://gentoo/tarsync-0.2.1.tar.bz2
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=9caf67455a8aa693a8d6ed4234209f7f

@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/ladspa-sdk
+DESCRIPTION=Tom's audio processing (TAP) LADSPA plugins
+EAPI=7
+HOMEPAGE=https://github.com/tomszilagyi/tap-plugins http://tap-plugins.sourceforge.net/
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/ladspa-sdk
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=4fa21187dddf267e1e065c178c631162

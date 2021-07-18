@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=tool to reliably distribute binary data using UDP broadcasting techniques
+EAPI=7
+HOMEPAGE=https://www.wudika.de/~jan/netpipe/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=https://www.wudika.de/~jan/netpipe/netpipe.tar.gz -> netpipe-1.0.0_beta2.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=75914454315f0c9fb5ad2c6578e6f548

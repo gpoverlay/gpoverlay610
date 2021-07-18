@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=sys-libs/zlib virtual/jpeg
+DESCRIPTION=A command-line tool for taking JPEG snapshots of VNC servers
+EAPI=7
+HOMEPAGE=http://vncsnapshot.sourceforge.net/
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib virtual/jpeg
+SLOT=0
+SRC_URI=mirror://sourceforge/vncsnapshot/vncsnapshot-1.2a-src.tar.bz2
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=97f0c64b2ef75bdc01e019a91d38d119

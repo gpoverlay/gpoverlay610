@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile install
+DEPEND=>=sys-libs/ncurses-5.3:0=
+DESCRIPTION=Curses-based clone of the nifty little Macintosh freeware game Galaxis
+EAPI=7
+HOMEPAGE=http://www.catb.org/~esr/galaxis/
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/ncurses-5.3:0=
+SLOT=0
+SRC_URI=http://www.catb.org/~esr/galaxis/galaxis-1.8.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=31b8a24ad1aa432e38d55e4aa37f12b4

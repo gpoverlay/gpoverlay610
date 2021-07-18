@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Interface to RFC2229 dictionary servers
+EAPI=6
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=~alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2+
+RDEPEND=app-xemacs/xemacs-base app-editors/xemacs
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/dictionary-1.18-pkg.tar.gz
+_eclasses_=xemacs-packages	e495309ce1d56fd35422ef3fe7d7a6d1
+_md5_=4967f83e5caa18ff7d15668afe76a331

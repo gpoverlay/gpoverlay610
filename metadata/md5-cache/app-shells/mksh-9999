@@ -1,0 +1,13 @@
+BDEPEND=dev-vcs/cvs net-misc/openssh
+DEFINED_PHASES=compile install prepare test unpack
+DEPEND=test? ( dev-lang/perl sys-apps/ed )
+DESCRIPTION=MirBSD Korn Shell
+EAPI=7
+HOMEPAGE=http://mirbsd.de/mksh
+IUSE=lksh static test
+LICENSE=MirOS BSD unicode
+PROPERTIES=live
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=cvs	8f8740beb4ce1deaae8393cfc28d2ed1	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=4cf5c7c14a98620e5825ba525a2f2ac2

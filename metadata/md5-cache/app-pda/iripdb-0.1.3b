@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=media-libs/taglib sys-libs/zlib app-arch/unzip
+DESCRIPTION=Allows generating the DB files necessary for the iRiver iHP-1xx
+EAPI=6
+HOMEPAGE=http://www.fataltourist.com/iripdb/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/taglib sys-libs/zlib
+SLOT=0
+SRC_URI=http://www.fataltourist.com/iripdb/iRipDB-0.1.3b.zip
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=840c83e49ddb64f7ad60570a0a98aace

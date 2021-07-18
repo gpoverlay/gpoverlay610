@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=A usenet binary autoposter for unix
+EAPI=7
+HOMEPAGE=http://newspost.unixcab.org/
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://newspost.unixcab.org/download/newspost-2.1.1.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=4edb6ef5085cf43612d159335484a923

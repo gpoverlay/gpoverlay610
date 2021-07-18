@@ -1,0 +1,15 @@
+BDEPEND=doc? ( app-doc/doxygen )
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtxml:5 >=net-libs/libaccounts-glib-1.23:= test? ( dev-qt/qttest:5 )
+DESCRIPTION=Qt5 bindings for libaccounts-glib
+EAPI=7
+HOMEPAGE=https://accounts-sso.gitlab.io/
+IUSE=doc test
+KEYWORDS=amd64 ~arm arm64 ~ppc64 x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtxml:5 >=net-libs/libaccounts-glib-1.23:=
+RESTRICT=test
+SLOT=0
+SRC_URI=https://gitlab.com/accounts-sso/libaccounts-qt/repository/VERSION_1.16/archive.tar.gz -> accounts-qt-1.16.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=f4895fbc42e33e7e7b1381c9ac29c4fd

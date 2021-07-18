@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile setup
+DESCRIPTION=Shared library to impliment the scrypt algorithm
+EAPI=6
+HOMEPAGE=https://github.com/technion/libscrypt
+KEYWORDS=amd64 arm arm64 ~mips ppc ppc64 sparc x86
+LICENSE=BSD-2
+SLOT=0
+SRC_URI=https://github.com/technion/libscrypt/archive/v1.21.tar.gz -> libscrypt-1.21.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=2729a2b007a876f4948fede0c7c4fbd1

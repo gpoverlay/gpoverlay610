@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=media-libs/libsdl[video] media-libs/sdl-ttf
+DESCRIPTION=A simple BoulderDash clone
+EAPI=6
+HOMEPAGE=http://www.tuxdash.de/index.php?language=EN
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl[video] media-libs/sdl-ttf
+SLOT=0
+SRC_URI=http://www.tuxdash.de/ressources/downloads/tuxdash_src_0.8.tar.bz2
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=47787f4985c527d302ca5a8849155f01

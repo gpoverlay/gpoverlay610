@@ -1,0 +1,14 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure install prepare
+DEPEND=berkdb? ( >=sys-libs/db-4 ) postgres? ( dev-db/postgresql[server] )
+DESCRIPTION=onak is an OpenPGP keyserver
+EAPI=7
+HOMEPAGE=http://www.earth.li/projectpurple/progs/onak.html
+IUSE=berkdb postgres
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RESTRICT=test
+SLOT=0
+SRC_URI=http://www.earth.li/projectpurple/files/onak-0.5.0.tar.xz
+_eclasses_=autotools	9e63f92c2a5d867fea55ecb160c7d354	gnuconfig	9f91b4b0c84e734a87492d4293f03de5	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=32540722228218d2a19e8ea2acca53fc

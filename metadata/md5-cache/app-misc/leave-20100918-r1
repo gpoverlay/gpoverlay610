@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=FreeBSD command-line tool that reminds you when its time to leave
+EAPI=6
+HOMEPAGE=http://www.freebsd.org/cgi/cvsweb.cgi/src/usr.bin/leave/
+KEYWORDS=amd64 ppc x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=mirror://gentoo/leave-20100918.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=597418f6c034d6f16e805f5af28903fa

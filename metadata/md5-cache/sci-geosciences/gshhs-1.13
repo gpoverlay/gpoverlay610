@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=sci-libs/netcdf sci-libs/gdal data? ( sci-geosciences/gshhs-data ) virtual/pkgconfig app-arch/unzip
+DESCRIPTION=Global Self-consistent, Hierarchical, High-resolution Shoreline programs
+EAPI=5
+HOMEPAGE=https://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html
+IUSE=+data
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=sci-libs/netcdf sci-libs/gdal data? ( sci-geosciences/gshhs-data )
+SLOT=0
+SRC_URI=ftp://ftp.soest.hawaii.edu/pwessel/gshhs/gshhs_1.13_src.zip
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=c7553b20fda19a4f688bfbd8a2e58fe4

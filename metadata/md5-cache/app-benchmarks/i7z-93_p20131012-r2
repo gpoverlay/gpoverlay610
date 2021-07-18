@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile configure install
+DEPEND=sys-libs/ncurses:0= qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 )
+DESCRIPTION=A better i7 (and now i3, i5) reporting tool for Linux
+EAPI=7
+HOMEPAGE=https://github.com/ajaiantilal/i7z
+IUSE=qt5
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses:0= qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 )
+SLOT=0
+SRC_URI=https://github.com/ajaiantilal/i7z/archive/5023138d7c35c4667c938b853e5ea89737334e92.tar.gz -> i7z-93_p20131012.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=b06a34917c9f963cdf31b0aea03a0288

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=x11-libs/libXmu x11-base/xorg-proto
+DESCRIPTION=Small, unconfigurable window manager
+EAPI=7
+HOMEPAGE=http://www.all-day-breakfast.com/wm2/
+KEYWORDS=amd64 ppc x86
+LICENSE=wm2 HPND
+RDEPEND=x11-libs/libXmu
+SLOT=0
+SRC_URI=http://www.all-day-breakfast.com/wm2/wm2-4.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=8c48a7d132d49ef6745380ac80413d1d

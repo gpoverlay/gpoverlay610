@@ -1,0 +1,13 @@
+BDEPEND=sys-devel/bison sys-devel/flex virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare test unpack
+DEPEND=yaml? ( dev-libs/libyaml )
+DESCRIPTION=Open Firmware device tree compiler
+EAPI=7
+HOMEPAGE=https://devicetree.org/ https://git.kernel.org/cgit/utils/dtc/dtc.git/
+IUSE=static-libs yaml
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=yaml? ( dev-libs/libyaml )
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=3f6ff2bf77c8ba56f7bd906625cfce9e

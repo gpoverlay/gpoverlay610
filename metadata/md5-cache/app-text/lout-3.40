@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=zlib? ( >=sys-libs/zlib-1.1.4 )
+DESCRIPTION=High-level language for document formatting
+EAPI=6
+HOMEPAGE=http://savannah.nongnu.org/projects/lout
+IUSE=zlib doc
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=GPL-3+
+RDEPEND=zlib? ( >=sys-libs/zlib-1.1.4 )
+SLOT=0
+SRC_URI=mirror://nongnu/lout/lout-3.40.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=6c3fccf23539419d0446f52ff2935a8f

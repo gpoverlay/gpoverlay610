@@ -1,0 +1,12 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DESCRIPTION=An Emacs major mode for editing XSL stylesheets and running XSL processes
+EAPI=7
+HOMEPAGE=https://sourceforge.net/projects/xslide/
+KEYWORDS=~alpha amd64 ppc x86
+LICENSE=GPL-2+
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=mirror://sourceforge/xslide/xslide-0.2.2.tar.gz
+_eclasses_=elisp	8d41193227fc27c56371b201ec7d861c	elisp-common	6bfea130fc0f2cbd4cbc23dc12992349
+_md5_=5fdb7ec5aa56571e886290e0813b71cb

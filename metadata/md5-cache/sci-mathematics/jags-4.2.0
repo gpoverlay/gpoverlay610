@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install
+DEPEND=virtual/blas virtual/lapack virtual/pkgconfig doc? ( virtual/latex-base dev-texlive/texlive-latexextra )
+DESCRIPTION=Just Another Gibbs Sampler for Bayesian MCMC simulation
+EAPI=6
+HOMEPAGE=http://mcmc-jags.sourceforge.net/
+IUSE=doc
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=virtual/blas virtual/lapack
+SLOT=0
+SRC_URI=mirror://sourceforge/project/mcmc-jags/JAGS/4.x/Source/JAGS-4.2.0.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=f960cee34ddeaa990981cf525b087064

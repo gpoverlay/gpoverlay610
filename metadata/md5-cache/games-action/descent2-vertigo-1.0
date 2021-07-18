@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Data files for Descent 2: The Vertigo Series
+EAPI=6
+HOMEPAGE=http://www.interplay.com/games/descent.php
+IUSE=videos
+KEYWORDS=~amd64 ~x86
+LICENSE=descent-data
+PROPERTIES=interactive
+RESTRICT=bindist
+SLOT=0
+_eclasses_=cdrom	dd6ba7b03316338a4fdd3ebbade8a719	estack	055c42df72f76a4f45ec92b35e83cd56	portability	c10bdc40668533b1faf15b1d89df0303
+_md5_=248256e90b2a8dcda38ce618b7146889

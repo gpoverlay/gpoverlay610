@@ -1,0 +1,12 @@
+BDEPEND=>=app-eselect/eselect-iptables-20200508
+DEFINED_PHASES=compile install postinst prerm
+DESCRIPTION=set up, maintain, and inspect the tables of ARP rules in the Linux kernel
+EAPI=7
+HOMEPAGE=http://ebtables.sourceforge.net/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=app-eselect/eselect-iptables-20200508
+SLOT=0
+SRC_URI=ftp://ftp.netfilter.org/pub/arptables/arptables-0.0.5.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=2c6eb730ab93608f0bbebd6c5759051d

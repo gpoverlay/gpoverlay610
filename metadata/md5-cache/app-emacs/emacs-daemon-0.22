@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=app-editors/emacs-23.1:*
+DESCRIPTION=Gentoo support for Emacs running as a server in the background
+EAPI=6
+HOMEPAGE=https://wiki.gentoo.org/wiki/Project:Emacs
+KEYWORDS=~alpha amd64 arm ~hppa ~ia64 ~mips ppc ppc64 ~s390 sparc x86
+LICENSE=GPL-2+
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/emacs/emacs-daemon-0.22.tar.xz
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	elisp	8d41193227fc27c56371b201ec7d861c	elisp-common	6bfea130fc0f2cbd4cbc23dc12992349
+_md5_=a202f1787793953c6d9579a3e5930cb6

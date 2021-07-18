@@ -1,0 +1,10 @@
+DEFINED_PHASES=configure install postinst prepare
+DESCRIPTION=Dialer Without a Useful Name (DWUN)
+EAPI=6
+HOMEPAGE=http://dwun.sourceforge.net/
+KEYWORDS=~amd64 x86
+LICENSE=MIT GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/dwun/dwun-0.96e.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=580aeb0b2ae1ab818ad90f8cd159ae62

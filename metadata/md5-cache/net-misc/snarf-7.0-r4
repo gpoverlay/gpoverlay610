@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=Small and fast CLI resource grabber for http, gopher, finger, ftp
+EAPI=7
+HOMEPAGE=https://www.xach.com/snarf/
+KEYWORDS=~alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=https://www.xach.com/snarf/snarf-7.0.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=c3a3adbe6a58183231f9cd5ee75b4a02

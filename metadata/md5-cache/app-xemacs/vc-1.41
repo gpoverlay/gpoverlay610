@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Version Control for Free systems
+EAPI=6
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=~alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2+
+RDEPEND=app-xemacs/dired app-xemacs/xemacs-base app-xemacs/mail-lib app-xemacs/ediff app-editors/xemacs
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/vc-1.41-pkg.tar.gz
+_eclasses_=xemacs-packages	e495309ce1d56fd35422ef3fe7d7a6d1
+_md5_=ed04583c774a5dda4637b0ff4a457425

@@ -1,0 +1,16 @@
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-libs/jsoncpp:= >=sci-chemistry/molequeue-0.7 sci-libs/spglib archive? ( app-arch/libarchive ) hdf5? ( sci-libs/hdf5:= ) qt5? ( dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 media-libs/glew:0= virtual/opengl ) vtk? ( sci-libs/vtk[qt5,views] ) dev-cpp/eigen:3 qt5? ( dev-qt/linguist-tools:5 ) test? ( dev-cpp/gtest )
+DESCRIPTION=Advanced molecule editor and visualizer 2 - libraries
+EAPI=7
+HOMEPAGE=https://www.openchemistry.org/ https://github.com/OpenChemistry/avogadrolibs
+IUSE=archive doc hdf5 qt5 test vtk
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD GPL-2+
+RDEPEND=dev-libs/jsoncpp:= >=sci-chemistry/molequeue-0.7 sci-libs/spglib archive? ( app-arch/libarchive ) hdf5? ( sci-libs/hdf5:= ) qt5? ( dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 media-libs/glew:0= virtual/opengl ) vtk? ( sci-libs/vtk[qt5,views] )
+REQUIRED_USE=vtk? ( qt5 )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/OpenChemistry/avogadrolibs/archive/1.93.0.tar.gz -> avogadrolibs-1.93.0.tar.gz vtk? ( https://github.com/psavery/genXrdPattern/releases/download/1.0-static/linux64-genXrdPattern -> linux64-genXrdPattern-avogadrolibs-1.93.0 )
+_eclasses_=cmake-utils	12008d68ebfd61f49a377c49f83558a8	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	bc2e7662a4a9a8643be851982a837ddc	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	ebdbaed22e873a5abe6205f41349b479	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=cdf516b2c1c0043e60c5c6e0153db915

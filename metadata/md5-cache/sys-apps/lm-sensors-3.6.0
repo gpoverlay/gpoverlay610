@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=sensord? ( net-analyzer/rrdtool virtual/logger ) sys-devel/bison sys-devel/flex
+DESCRIPTION=Hardware Monitoring user-space utilities
+EAPI=7
+HOMEPAGE=https://hwmon.wiki.kernel.org/ https://github.com/lm-sensors/lm-sensors
+IUSE=contrib sensord static-libs kernel_linux abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS=~alpha amd64 arm arm64 ~ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2+ LGPL-2.1
+RDEPEND=sensord? ( net-analyzer/rrdtool virtual/logger ) dev-lang/perl !<sys-apps/openrc-0.36
+SLOT=0/5.0.0
+SRC_URI=https://github.com/lm-sensors/lm-sensors/archive/V3-6-0.tar.gz -> lm-sensors-3.6.0.tar.gz
+_eclasses_=linux-info	30ded7f9adbdd03d3e848cdd74f6c395	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib	ebdbaed22e873a5abe6205f41349b479	multilib-build	c311a933538fe97b72600926696ea66f	multilib-minimal	12533389e8f5cc25f70ffcddbc9b3d29	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=bd675a5a570de9f7f45dcc2930b96566

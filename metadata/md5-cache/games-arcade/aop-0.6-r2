@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install prepare
+DEPEND=sys-libs/ncurses:0
+DESCRIPTION=Ambassador of Pain is a curses based game with only 64 lines of code
+EAPI=7
+HOMEPAGE=http://raffi.at/view/code/aop
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses:0
+SLOT=0
+SRC_URI=http://www.raffi.at/code/aop/aop-0.6.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=c0c7d16e55bb6703ceff3f840809974d

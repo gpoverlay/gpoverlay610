@@ -1,0 +1,13 @@
+BDEPEND=>=net-misc/networkmanager-1.2[ppp] dev-libs/dbus-glib net-dialup/ppp[eap-tls] net-dialup/xl2tpd >=dev-libs/glib-2.32 || ( net-vpn/strongswan net-vpn/libreswan ) gnome? ( x11-libs/gtk+:3 app-crypt/libsecret gnome-extra/nm-applet ) sys-devel/gettext dev-util/intltool virtual/pkgconfig app-arch/xz-utils sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure prepare
+DESCRIPTION=NetworkManager L2TP plugin
+EAPI=7
+HOMEPAGE=https://github.com/nm-l2tp/network-manager-l2tp
+IUSE=gnome static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=net-misc/networkmanager-1.2[ppp] dev-libs/dbus-glib net-dialup/ppp[eap-tls] net-dialup/xl2tpd >=dev-libs/glib-2.32 || ( net-vpn/strongswan net-vpn/libreswan ) gnome? ( x11-libs/gtk+:3 app-crypt/libsecret gnome-extra/nm-applet )
+SLOT=0
+SRC_URI=https://github.com/nm-l2tp/NetworkManager-l2tp/releases/download/1.8.0/NetworkManager-l2tp-1.8.0.tar.xz
+_eclasses_=autotools	9e63f92c2a5d867fea55ecb160c7d354	gnome.org	df5c6c53843e1be0aad724138e78bbc3	gnuconfig	9f91b4b0c84e734a87492d4293f03de5	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=42ed02a5c016498f7e63a386c30ba4a4

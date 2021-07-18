@@ -1,0 +1,11 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install
+DESCRIPTION=Library for reading and writing ICC color profile files
+EAPI=7
+HOMEPAGE=http://freshmeat.sourceforge.net/projects/icclib
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://www.argyllcms.com/icclib_V2.14.zip
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=681c2aae9d5f757b108bc31c0f4208af

@@ -1,0 +1,12 @@
+BDEPEND=kernel_linux? ( virtual/pkgconfig ) virtual/pkgconfig virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=!<sys-fs/udev-172
+DESCRIPTION=Gentoo Network Interface Management Scripts
+EAPI=7
+HOMEPAGE=https://www.gentoo.org/proj/en/base/openrc/
+LICENSE=BSD-2
+PROPERTIES=live
+RDEPEND=sys-apps/gentoo-functions >=sys-apps/openrc-0.15 !<sys-fs/udev-init-scripts-27
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	multilib	ebdbaed22e873a5abe6205f41349b479	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	udev	452708c3f55cf6e918b045adb949a9e6
+_md5_=c1a11a1440594745be3f272a27d1dcc8

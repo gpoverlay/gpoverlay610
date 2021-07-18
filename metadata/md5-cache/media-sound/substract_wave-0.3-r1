@@ -1,0 +1,10 @@
+DEFINED_PHASES=configure
+DESCRIPTION=substracts 2 mono wave files from each other by a factor specified on the command line
+EAPI=7
+HOMEPAGE=http://panteltje.com/panteltje/dvd/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://panteltje.com/panteltje/dvd/substract_wave-0.3.tgz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=250e919221160452d6b27be7578e346c

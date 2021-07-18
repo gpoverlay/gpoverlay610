@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install test
+DEPEND=ssl? ( >net-libs/gnutls-2.12.20:= ) test? ( net-misc/curl[ssl?] )
+DESCRIPTION=Small C library to run an HTTP server as part of another application
+EAPI=7
+HOMEPAGE=https://www.gnu.org/software/libmicrohttpd/
+IUSE=+epoll ssl static-libs test abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS=amd64 x86
+LICENSE=LGPL-2.1
+RDEPEND=ssl? ( >net-libs/gnutls-2.12.20:= )
+RESTRICT=!test? ( test )
+SLOT=0/12
+SRC_URI=mirror://gnu/libmicrohttpd/libmicrohttpd-0.9.68.tar.gz
+_eclasses_=multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib	ebdbaed22e873a5abe6205f41349b479	multilib-build	c311a933538fe97b72600926696ea66f	multilib-minimal	12533389e8f5cc25f70ffcddbc9b3d29	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=1cf56fff08581ac6afe63923cfba1e7d

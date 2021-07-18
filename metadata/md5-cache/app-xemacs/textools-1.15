@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Miscellaneous TeX support
+EAPI=6
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=~alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2+
+RDEPEND=app-xemacs/xemacs-base app-editors/xemacs
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/textools-1.15-pkg.tar.gz
+_eclasses_=xemacs-packages	e495309ce1d56fd35422ef3fe7d7a6d1
+_md5_=e1f40f736833ccb1305729c2b47df763

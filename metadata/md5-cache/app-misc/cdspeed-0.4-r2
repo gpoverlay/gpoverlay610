@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Change the speed of your CD drive
+EAPI=7
+HOMEPAGE=http://linuxfocus.org/~guido/
+KEYWORDS=~alpha amd64 ~hppa ~mips ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://linuxfocus.org/~guido/cdspeed-0.4.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=1c3058d384ae4010ba05156ba1f83609

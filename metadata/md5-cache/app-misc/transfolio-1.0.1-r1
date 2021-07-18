@@ -1,0 +1,11 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install prepare
+DESCRIPTION=Enables data transfer between the PC and the Atari Portfolio
+EAPI=7
+HOMEPAGE=http://leute.server.de/peichl/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2+
+SLOT=0
+SRC_URI=http://leute.server.de/peichl/transfolio.zip -> transfolio-1.0.1.zip
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=7c034201d8f4919bd7966453a927f8fa

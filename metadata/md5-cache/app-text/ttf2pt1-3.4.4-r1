@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install prepare
+DEPEND=>=media-libs/freetype-2.5.1:2
+DESCRIPTION=True Type Font to Postscript Type 1 Converter
+EAPI=7
+HOMEPAGE=http://ttf2pt1.sourceforge.net/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=ttf2pt1
+RDEPEND=>=media-libs/freetype-2.5.1:2
+SLOT=0
+SRC_URI=mirror://sourceforge/ttf2pt1/ttf2pt1-3.4.4.tgz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=712c6662c144ddc7a44fb7499bdc91ac

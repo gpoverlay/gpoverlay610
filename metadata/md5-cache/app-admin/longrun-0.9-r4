@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install postinst setup
+DEPEND=sys-apps/groff
+DESCRIPTION=A utility to control Transmeta's Crusoe and Efficeon processors
+EAPI=6
+HOMEPAGE=http://freshmeat.net/projects/longrun/
+IUSE=kernel_linux
+KEYWORDS=-ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/linux/utils/cpu/crusoe/longrun-0.9.tar.bz2 mirror://debian/pool/main/l/longrun/longrun_0.9-19.diff.gz
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	linux-info	30ded7f9adbdd03d3e848cdd74f6c395	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=197c8dc7e7a6cd2175ee6a522ec787ac

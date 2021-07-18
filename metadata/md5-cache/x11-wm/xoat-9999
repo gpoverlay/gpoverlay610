@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst prepare unpack
+DEPEND=x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama
+DESCRIPTION=X Obstinate Asymmetric Tiler
+EAPI=7
+HOMEPAGE=https://github.com/seanpringle/xoat
+IUSE=savedconfig
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama !savedconfig? ( x11-misc/dmenu )
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	multilib	ebdbaed22e873a5abe6205f41349b479	portability	c10bdc40668533b1faf15b1d89df0303	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=e1d927fa9d1edc75a70f7d20c3b8feac

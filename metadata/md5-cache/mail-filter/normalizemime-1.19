@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Helper program to normalize MIME encoded messages
+EAPI=7
+HOMEPAGE=http://hyvatti.iki.fi/~jaakko/spam/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/normalizemime-1.19.tar.bz2
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=f9506a5d0e688cffdc76d763058c53fa

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst setup
+DEPEND==www-servers/apache-2.4*
+DESCRIPTION=mod_caucho connects Resin and Apache2
+EAPI=5
+HOMEPAGE=http://www.caucho.com/
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND==www-servers/apache-2.4*
+SLOT=0
+SRC_URI=http://www.caucho.com/download/resin-4.0.47-src.tar.gz
+_eclasses_=apache-module	6d6745b832afba32cbcfba34e3ee328f	depend.apache	d54e0d0bd6b36c476594edc2cee2e332	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=78fca312f0836be4b866051f44a27fc6

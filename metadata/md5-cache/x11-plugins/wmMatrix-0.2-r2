@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile
+DEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-base/xorg-proto
+DESCRIPTION=WMaker DockApp: Slightly modified version of Jamie Zawinski's xmatrix screenhack
+EAPI=7
+HOMEPAGE=https://www.dockapps.net/wmmatrix
+KEYWORDS=amd64 ppc ppc64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-misc/xscreensaver
+SLOT=0
+SRC_URI=https://www.dockapps.net/download/wmMatrix-0.2.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=0eb6b8fd15d93050f7475d4330dd5da5

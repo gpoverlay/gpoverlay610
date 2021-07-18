@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Automated port scan detector and response tool
+EAPI=7
+HOMEPAGE=https://sourceforge.net/projects/sentrytools/
+IUSE=kernel_Darwin kernel_linux kernel_FreeBSD kernel_SunOS
+KEYWORDS=amd64 ppc x86 ~x64-macos
+LICENSE=GPL-2
+RDEPEND=kernel_Darwin? ( app-shells/tcsh )
+SLOT=0
+SRC_URI=mirror://sourceforge/sentrytools/portsentry-1.2.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=ec9e88c9b89a6f93ef629d9b44ee7bce

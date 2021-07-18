@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile postinst
+DEPEND=media-libs/imlib2[X] x11-libs/libXext x11-libs/libX11 x11-libs/libXinerama x11-libs/libXmu x11-libs/libXft x11-base/xorg-proto
+DESCRIPTION=A full-screen task-switcher providing Apple Expose-like functionality
+EAPI=7
+HOMEPAGE=http://thegraveyard.org/skippy.php
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/imlib2[X] x11-libs/libXext x11-libs/libX11 x11-libs/libXinerama x11-libs/libXmu x11-libs/libXft
+SLOT=0
+SRC_URI=http://thegraveyard.org/files/skippy-0.5.0.tar.bz2
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=f11126b38d22c83a8a12577fe67596c8

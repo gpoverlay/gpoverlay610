@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Creates burnable CD images for SGI LiveCDs
+EAPI=7
+HOMEPAGE=ftp://ftp.linux-mips.org/pub/linux/mips/people/skylark/
+KEYWORDS=-* ~mips
+LICENSE=all-rights-reserved
+SLOT=0
+SRC_URI=ftp://ftp.linux-mips.org/pub/linux/mips/people/skylark/sgibootcd-0.12.tar.bz2
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=e19297d7721b69bb81c6407fe00101d2

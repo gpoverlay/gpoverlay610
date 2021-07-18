@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare
+DEPEND=vim-syntax? ( app-editors/vim ) emacs? ( >=app-editors/emacs-23.1:* )
+DESCRIPTION=An object prototype based language
+EAPI=7
+HOMEPAGE=http://isaacproject.u-strasbg.fr/li.html
+IUSE=vim-syntax emacs examples
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=vim-syntax? ( app-editors/vim ) emacs? ( >=app-editors/emacs-23.1:* )
+SLOT=0
+SRC_URI=http://isaacproject.u-strasbg.fr/download/lisaac-0.13.1.tar.gz
+_eclasses_=elisp-common	6bfea130fc0f2cbd4cbc23dc12992349	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=869b91654ce56a5adce08ce0c225679a

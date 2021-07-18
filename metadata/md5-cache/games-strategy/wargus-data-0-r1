@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install
+DEPEND=games-strategy/wargus media-sound/cdparanoia media-sound/timidity++ media-video/ffmpeg2theora
+DESCRIPTION=Warcraft II data for wargus (needs DOS CD)
+EAPI=6
+HOMEPAGE=http://wargus.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=all-rights-reserved
+PROPERTIES=interactive
+RESTRICT=userpriv
+SLOT=0
+_eclasses_=cdrom	dd6ba7b03316338a4fdd3ebbade8a719	portability	c10bdc40668533b1faf15b1d89df0303
+_md5_=0f0563cee2808c9c204c3aff4b28dd27

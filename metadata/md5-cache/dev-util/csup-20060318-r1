@@ -1,0 +1,13 @@
+BDEPEND=>=sys-devel/bison-2.1
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/zlib:0= dev-libs/openssl:0=
+DESCRIPTION=A rewrite of CVSup
+EAPI=7
+HOMEPAGE=http://www.mu.org/~mux/csup.html
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD
+RDEPEND=sys-libs/zlib:0= dev-libs/openssl:0=
+SLOT=0
+SRC_URI=http://mu.org/~mux/csup-snap-20060318.tgz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=7ef886a418963ac93ffbe1dda655b876

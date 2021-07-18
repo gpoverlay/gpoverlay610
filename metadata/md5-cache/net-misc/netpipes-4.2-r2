@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Tools to manipulate BSD TCP/IP stream sockets
+EAPI=7
+HOMEPAGE=http://web.purplefrog.com/~thoth/netpipes/netpipes.html
+KEYWORDS=amd64 x86
+LICENSE=GPL-2+
+SLOT=0
+SRC_URI=http://web.purplefrog.com/~thoth/netpipes/ftp/netpipes-4.2-export.tar.gz
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=4cbb73b87d150906b8869b86fd250280
